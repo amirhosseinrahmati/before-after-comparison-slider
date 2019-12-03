@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Before <|> After Slider</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="mainSection">
+        <div id="one" class="bal-container">
+            <div class="bal-after">
+                <img src="images/autumn.jpg">
+                <div class="bal-afterPosition afterLabel">
+                    After
+                </div>
+            </div>
+
+            <div class="bal-before">
+                <div class="bal-before-inset">
+                    <img src="images/spring.jpg">
+                    <div class="bal-beforePosition beforeLabel">
+                        Before
+                    </div>
+                </div>
+            </div>
+
+            <div class="bal-handle">
+                <span class=" handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+            </div>
+
+        </div>
+
+        <div id="two" class="bal-container">
+            <div class="bal-after">
+                <img src="images/after.jpg">
+                <div class="bal-afterPosition afterLabel">
+                    After
+                </div>
+            </div>
+            <div class="bal-before">
+                <div class="bal-before-inset">
+                    <img src="images/before.jpg">
+                    <div class="bal-beforePosition beforeLabel">
+                        Before
+                    </div>
+
+                </div>
+            </div>
+            <div class="bal-handle">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+
+            </div>
+        </div>
+
+        <div id="three" class="bal-container">
+            <div class="bal-after">
+                <img src="images/autumn.jpg">
+                <div class="bal-afterPosition afterLabel">
+                    After
+                </div>
+            </div>
+            <div class="bal-before">
+                <div class="bal-before-inset">
+                    <img src="images/spring.jpg">
+                    <div class="bal-beforePosition beforeLabel">
+                        Before
+                    </div>
+
+                </div>
+            </div>
+            <div class="bal-handle">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+    <script>
+        new BeforeAfter({ id: '#one' });
+        new BeforeAfter({ id: '#two' });
+        new BeforeAfter({ id: '#three' });
+    </script>
+
+</body>
+
+</html>
