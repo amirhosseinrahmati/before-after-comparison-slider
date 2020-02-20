@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.top-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem 0.5rem;
+}
+
+.top-title span {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
 @media all and (max-width: 479px) {
     .mainSection {
         display: flex;
@@ -106,6 +117,7 @@
     }
 }
 
+
 /* Before After Container */
 
 .bal-container {
@@ -149,7 +161,8 @@
     left: 0;
 }
 
-.bal-after img, .bal-before img {
+.bal-after img,
+.bal-before img {
     object-fit: cover;
     position: absolute;
     width: 100%;
@@ -207,6 +220,7 @@
     user-select: none;
 }
 
+
 /* handle and arrow */
 
 .bal-handle {
@@ -224,7 +238,8 @@
     box-shadow: 0 0 10px rgb(12, 12, 12);
 }
 
-.handle-left-arrow, .handle-right-arrow {
+.handle-left-arrow,
+.handle-right-arrow {
     width: 0;
     height: 0;
     border: 6px inset transparent;
@@ -257,7 +272,8 @@
     box-shadow: 0 0 5px rgb(12, 12, 12);
 }
 
-.bal-handle::before, .bal-handle::after {
+.bal-handle::before,
+.bal-handle::after {
     content: " ";
     display: block;
     width: 2px;

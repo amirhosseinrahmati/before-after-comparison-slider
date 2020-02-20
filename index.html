@@ -5,13 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Before <|> After Slider</title>
+    <title>Before &lt; | &gt; After Slider</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+    <div class="top-title">
+        <h1>
+            Before After Comparison Slider
+        </h1>
+        <span>
+            Baked With Vanilla JavaScript + Touch Support
+        </span>
+    </div>
+
     <div class="mainSection">
+
         <div id="one" class="bal-container">
             <div class="bal-after">
                 <img src="images/autumn.jpg">
@@ -87,9 +97,15 @@
     <script src="js/script.js"></script>
 
     <script>
-        new BeforeAfter({ id: '#one' });
-        new BeforeAfter({ id: '#two' });
-        new BeforeAfter({ id: '#three' });
+        new BeforeAfter({
+            id: '#one'
+        });
+        new BeforeAfter({
+            id: '#two'
+        });
+        new BeforeAfter({
+            id: '#three'
+        });
     </script>
 
 </body>
