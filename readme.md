@@ -13,13 +13,13 @@ Then give an id for each **div** element which has **bal-container** class:
 ```
 At the end, initialize every element with the given id:
 ```
-    <script>
-        new BeforeAfter({
-            id: '#one'
-        });
-        new BeforeAfter({
-            id: '#two'
-        });
-		...
-    </script>
+<script>
+    new BeforeAfter({
+        id: '#one'
+    });
+    new BeforeAfter({
+        id: '#two'
+    });
+    ...
+</script>
 ```
