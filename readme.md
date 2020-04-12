@@ -1,4 +1,4 @@
-![before and after comparison slider](https://raw.githubusercontent.com/amirhosseinrahmati/before-after-comparison-slider/master/images/repo-intro-img.png "before and after comparison slider")
+![before and after comparison slider](https://raw.githubusercontent.com/amirhosseinrahmati/before-after-comparison-slider/master/images/repo-intro-img.gif "before and after comparison slider")
 
 ### Initializing
 Import JavaScript code in your html:
