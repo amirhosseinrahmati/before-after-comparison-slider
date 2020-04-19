@@ -1,3 +1,9 @@
+# Before <|> After Comparison Slider
+![](https://www.code-inspector.com/project/6409/status/svg) ![](https://www.code-inspector.com/project/6409/score/svg)
+<br>
+Lightweight image comparison slider built with VanillaJS
+<br>
+
 ![before and after comparison slider](https://raw.githubusercontent.com/amirhosseinrahmati/before-after-comparison-slider/master/images/repo-intro-img.gif "before and after comparison slider")
 
 ### Initializing
